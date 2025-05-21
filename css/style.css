@@ -34,6 +34,16 @@ header {
     padding: 1rem 5%;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 200px;
+    height: auto;
+}
+
 .logo h1 {
     color: #0077b6;
     font-size: 1.8rem;
@@ -136,12 +146,16 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Images/Equipe.webp');
     background-size: cover;
     background-position: center;
     color: #fff;
     padding: 5rem 0;
     text-align: center;
+    min-height: 80vh; /* Pour s'assurer que la section prend une bonne hauteur */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-content {
@@ -1037,3 +1051,4 @@ footer {
 .whatsapp-footer-btn .fab {
     margin-right: 8px;
 }
+

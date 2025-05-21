@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.appendChild(style);
     
     navToggle.addEventListener('click', function() {
-        document.querySelector('nav').classList.toggle('active');
+        document.querySelector('nav.top-nav').classList.toggle('active');
         this.classList.toggle('active');
     });
     
